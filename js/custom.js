@@ -45,12 +45,13 @@ function isUrl(url) {
     return (res !== null);
 };
 function isUrlMega(url){
-    var protocol = 'https://'
-    var host = 'mega.nz'
-    var file = '#'
-    var id = '[a-zA-Z0-9]{0,8}'
-    var key = '[a-zA-Z0-9_-]+'
-    var regex = `${protocol}${host}/${file}!${id}!${key}`;
+    var protocol = 'https://';
+    var protocol2 = 'http://';
+    var host = 'mega.nz';
+    var file = '#';
+    var id = '[a-zA-Z0-9]{0,8}';
+    var key = '[a-zA-Z0-9_-]+';
+    var regex = `(${protocol}|${protocol2})${host}/${file}!${id}!${key}`;
     var res = url.match(regex);
     return (res !== null);
 }
