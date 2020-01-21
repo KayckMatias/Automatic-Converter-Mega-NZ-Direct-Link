@@ -7,3 +7,4 @@ Automatic mega.nz Converter created with PHP and jQuery using API mega.nz
 <h4>Atenção:</h4>
 <strong>Esse Script não funciona em localhost, necessário uma hospedagem.</strong>
 <h2>Made with &hearts; by LordzSpectron</h2>
+<h3>DEMO:</h3> http://lordzspectron.ml/mega.nz/
